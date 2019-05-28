@@ -1,0 +1,34 @@
+# IPython log file
+
+cd 1.3.3
+%logstart -ort logs/Chung_1.3.3.2.log
+%logstop
+%logstart -ort logs/Chung_1.3.3.3.log
+%logstop
+%logstart -ort logs/Chung_1.3.3.3.log
+%logstop
+%logstop
+# Thu, 13 Dec 2018 05:39:39
+%run Chung_1.3.3.py
+# Thu, 13 Dec 2018 05:40:07
+secret = ['red','red','yellow','yellow','black']
+# Thu, 13 Dec 2018 05:40:27
+ hint('red', secret)
+# Thu, 13 Dec 2018 05:40:39
+ hint('yellow', secret)
+# Thu, 13 Dec 2018 05:40:46
+ hint('green', secret)
+# Thu, 13 Dec 2018 05:41:48
+%run Chung_1.3.3.py
+# Thu, 13 Dec 2018 05:47:42
+#Conclusion 1. blocks of code represent the indentations of what happens if the stament is ture or false just like MIT app inventor.
+# Thu, 13 Dec 2018 05:50:26
+#Conclusion 2. list, string, comarison operators, mutiplication, addition. 
+# Thu, 13 Dec 2018 20:49:41
+#Conclusion 3. Kendra is correct because I think that she was right when she said that it would take up less memory. I think Jayla is right in some forms because she talks about how you only have to change it in one spot. And finaly I disagree with Ira because I dont think the two lines would slow down the code.
+# Thu, 13 Dec 2018 20:49:57
+%run Chung_1.3.3.py
+# Thu, 13 Dec 2018 20:50:27
+#assignment check. Everything looks great!
+# Thu, 13 Dec 2018 20:50:46
+%logstop

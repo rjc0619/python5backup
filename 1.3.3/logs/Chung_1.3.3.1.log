@@ -1,0 +1,99 @@
+# IPython log file
+
+# 17c. Perimeter test
+perimeter(3,4)
+hyp(3,4)
+hyp(3,4)
+%logstart -ort 1.3.2/Logs/Chung_1.3.2.3.log
+ %run 1.3.2/Chuhng_1.3.2.py
+ %run 1.3.2/Chung_1.3.2.py
+# 17a. Hypotenuse test
+hyp(3,4)
+#[Out]# 5.0
+ %run 1.3.2/Chung_1.3.2.py
+ mean(3,4,7)
+#[Out]# 4.666666666666667
+ %run 1.3.2/Chung_1.3.2.py
+ %run 1.3.2/Chung_1.3.2.py
+# 17b. Mean test
+ mean(3,4,7)
+#[Out]# 4.666666666666667
+# 17c. Perimeter test
+ perimeter(3,4)
+#[Out]# 14
+ %run 1.3.2/Chung_1.3.2.py
+ %run 1.3.2/Chung_1.3.2.py
+#conclusion 1.  I think that the other code could’ve been defined so it would be easier to just add in the start and also the histogram
+#conclusion 2. Integers and floats
+#conclusion 3. In python you have to write the code instead of dragging it
+#conclusion 4.  so that throught the code when you need the information the code already know what you need and it could easily tell what you are try to do.
+#conclusion 5 I got all the same answers to all of the previous code that I defined in the code editor
+%logstop
+ %run 1.3.2/Chung_1.3.2.py
+%logstart -ort 1.3.2/Logs/Chung_1.3.2.3.log
+%logstart -ort 1.3.2/Logs/Chung_1.3.2.4.log
+%logstop
+%logstart -ort 1.3.2/Logs/Chung_1.3.2.4.log
+ %run 1.3.2/Chung_1.3.2.py
+a =3
+a**2
+#[Out]# 9
+cd 1.3.3
+pwd
+#[Out]# u'/home/ubuntu/workspace/1.3.3'
+%logstop
+%logstart -ort 1.3.3/Logs/Chung_1.3.3.4log
+%logstart -ort 1.3.3/logs/Chung_1.3.3.1.log
+# Mon, 10 Dec 2018 21:10:33
+a = 3
+# Mon, 10 Dec 2018 21:10:38
+a**2
+#[Out]# 9
+# Mon, 10 Dec 2018 21:10:47
+pwd
+#[Out]# u'/home/ubuntu/workspace/1.3.3'
+# Mon, 10 Dec 2018 21:12:42
+#6a. prediction: a=3 because 3 squared equals 9 and also 3 is not greater than 3
+# Mon, 10 Dec 2018 21:13:32
+a**2 >= 9 and not a>3
+#[Out]# True
+# Mon, 10 Dec 2018 21:13:58
+#6a. contd. it is true
+# Mon, 10 Dec 2018 21:19:29
+a+2 == 5 or a-1 != 3
+#[Out]# True
+# Mon, 10 Dec 2018 21:23:47
+x, y = (65, 40)
+# Mon, 10 Dec 2018 21:23:49
+x
+#[Out]# 65
+# Mon, 10 Dec 2018 21:24:28
+50<x and x<80 and 30<=y and y<=45
+#[Out]# True
+# Mon, 10 Dec 2018 21:25:32
+x<=40
+#[Out]# False
+# Mon, 10 Dec 2018 21:26:22
+x<=40 and x>=130 and y>=100 and y<=120
+#[Out]# False
+# Mon, 10 Dec 2018 21:27:02
+x, y = (90, 115)
+# Mon, 10 Dec 2018 21:27:10
+x<=40 and x>=130 and y>=100 and y<=120
+#[Out]# False
+# Mon, 10 Dec 2018 21:27:19
+x<=40 and x>=130 and y>=100 and y<=120
+#[Out]# False
+# Mon, 10 Dec 2018 21:27:27
+x, y = (90, 115)
+# Mon, 10 Dec 2018 21:27:43
+x>=40 and x<=130 and y>=100 and y<=120
+#[Out]# True
+# Mon, 10 Dec 2018 21:32:37
+%run Chung_1.3.3.py
+# Mon, 10 Dec 2018 21:33:55
+%run Chung_1.3.3.py
+# Mon, 10 Dec 2018 21:35:25
+%run Chung_1.3.3.py
+# Mon, 10 Dec 2018 21:35:40
+%logstop

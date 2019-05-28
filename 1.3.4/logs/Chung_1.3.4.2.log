@@ -1,0 +1,62 @@
+# IPython log file
+
+cd 1.3.3
+%logstart -ort logs/Chung_1.3.3.2.log
+%logstop
+%logstart -ort logs/Chung_1.3.3.3.log
+%logstop
+%logstart -ort logs/Chung_1.3.3.3.log
+%logstop
+%logstop
+%logstart -ort logs/Chung_1.3.3.4.log
+%run Chung_1.3.3.py
+secret = ['red','red','yellow','yellow','black']
+ hint('red', secret)
+ hint('yellow', secret)
+ hint('green', secret)
+%run Chung_1.3.3.py
+#Conclusion 1. blocks of code represent the indentations of what happens if the stament is ture or false just like MIT app inventor.
+#Conclusion 2. list, string, comarison operators, mutiplication, addition.
+#Conclusion 3. Kendra is correct because I think that she was right when she said that it would take up less memory. I think Jayla is right in some forms because she talks about how you only have to change it in one spot. And finaly I disagree with Ira because I dont think the two lines would slow down the code.
+%run Chung_1.3.3.py
+#assignment check. Everything looks great!
+%logstop
+%run Chung_1.3.3.py
+%run Chung_1.3.4.py
+%run Chung_1.3.4.py
+cd ..
+cd 1.3.4
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# True
+food_id_test()
+#[Out]# True
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# True
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# False
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# False
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# True
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# False
+%run Chung_1.3.4.py
+food_id_test()
+#[Out]# True
+%logstop
+%logstop
+# Fri, 14 Dec 2018 20:51:27
+ food_id_test()
+#[Out]# True
+# Fri, 14 Dec 2018 21:34:38
+%run Chung_1.3.4.py
+# Fri, 14 Dec 2018 21:34:44
+f(12)
+# Fri, 14 Dec 2018 21:35:03
+%logstop

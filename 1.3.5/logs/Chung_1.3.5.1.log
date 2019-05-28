@@ -1,0 +1,47 @@
+# IPython log file
+
+%logstart -ort logs/Chung_1.3.4.3.log
+%logstart -ort logs/Chung_1.3.5.1.log
+cd 1.2.5
+cd 1.3.5
+# Mon, 07 Jan 2019 20:57:28
+type('tr' + "y this")
+#[Out]# str
+# Mon, 07 Jan 2019 20:57:36
+type('tr' + 5)
+# Mon, 07 Jan 2019 21:00:53
+slogan[0]
+# Mon, 07 Jan 2019 21:06:13
+slogan = 'My school is the best'
+# Mon, 07 Jan 2019 21:06:15
+slogan[0]
+#[Out]# 'M'
+# Mon, 07 Jan 2019 21:06:33
+slogan[0:5]
+#[Out]# 'My sc'
+# Mon, 07 Jan 2019 21:08:16
+slogan[17:21]
+#[Out]# 'best'
+# Mon, 07 Jan 2019 21:10:43
+slogan[:12] + 'DHS'
+#[Out]# 'My school isDHS'
+# Mon, 07 Jan 2019 21:10:57
+slogan[:13] + 'DHS'
+#[Out]# 'My school is DHS'
+# Mon, 07 Jan 2019 21:11:22
+len (slogan)
+#[Out]# 21
+# Mon, 07 Jan 2019 21:33:58
+%run Chung_1.3.5.py
+# Mon, 07 Jan 2019 21:34:07
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 0
+# Mon, 07 Jan 2019 21:34:46
+%run Chung_1.3.5.py
+# Mon, 07 Jan 2019 21:34:48
+how_eligible('This? "Yes." No, not really!')
+#[Out]# 0
+# Mon, 07 Jan 2019 21:35:08
+%log stop
+# Mon, 07 Jan 2019 21:35:14
+%logstop

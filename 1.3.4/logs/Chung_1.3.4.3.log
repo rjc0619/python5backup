@@ -1,0 +1,59 @@
+# IPython log file
+
+%logstart -ort logs/Chung_1.3.4.3.log
+cd 1.3.4
+# Mon, 17 Dec 2018 03:58:23
+f(12)
+# Mon, 17 Dec 2018 04:07:54
+%run Chung_1.3.4.py
+# Mon, 17 Dec 2018 04:07:58
+f(12)
+# Mon, 17 Dec 2018 04:10:56
+f(11)
+# Mon, 17 Dec 2018 04:11:15
+f(9)
+# Mon, 17 Dec 2018 04:25:10
+f(9)
+# Mon, 17 Dec 2018 04:25:13
+%run Chung_1.3.4.py
+# Mon, 17 Dec 2018 04:25:15
+f(9)
+# Mon, 17 Dec 2018 04:25:18
+f(11)
+# Mon, 17 Dec 2018 04:25:26
+f(12)
+# Mon, 17 Dec 2018 04:28:06
+f(12)
+# Mon, 17 Dec 2018 04:28:13
+f(11)
+# Mon, 17 Dec 2018 04:28:18
+f(0)
+# Mon, 17 Dec 2018 04:28:28
+%run Chung_1.3.4.py
+# Mon, 17 Dec 2018 04:28:30
+f(0)
+# Mon, 17 Dec 2018 04:28:40
+f(12)
+# Mon, 17 Dec 2018 04:28:47
+f(11)
+# Mon, 17 Dec 2018 04:28:53
+f(4)
+# Mon, 17 Dec 2018 04:29:00
+f(a)
+# Mon, 17 Dec 2018 04:29:08
+f(11)
+# Mon, 17 Dec 2018 04:29:14
+f(-1)
+# Mon, 17 Dec 2018 04:29:30
+f(1.1)
+# Mon, 17 Dec 2018 06:56:02
+food_id_test()
+#[Out]# True
+# Mon, 17 Dec 2018 07:10:51
+%run Chung_1.3.4.py
+# Mon, 17 Dec 2018 07:11:04
+%run Chung_1.3.4.py
+# Mon, 17 Dec 2018 07:13:28
+%logstio
+# Mon, 17 Dec 2018 07:13:37
+%logstop

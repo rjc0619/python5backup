@@ -1,0 +1,30 @@
+# IPython log file
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import numpy as np
+a = np.random.randn(10000)
+plt.hist(a)
+#[Out]# (array([   11.,   121.,   673.,  1801.,  3151.,  2626.,  1242.,   332.,
+#[Out]#           39.,     4.]), array([-3.82011488, -3.02088135, -2.22164781, -1.42241428, -0.62318075,
+#[Out]#         0.17605278,  0.97528632,  1.77451985,  2.57375338,  3.37298691,
+#[Out]#         4.17222045]), <a list of 10 Patch objects>)
+plt.savefig('1.3.2/Histogram')
+%logstart -ort 1.3.2/logs/Chung_1.3.2.1.log
+%logstart -ort 1.3.2/logs/Last_1.3.2.#.log
+%logstart -ort 1.3.2/logs/Last_1.3.2.#.log
+%logstart -ort 1.3.2/logs/Last_1.3.2.#.log
+%logstart -ort 1.3.2/logs/Chung_1.3.2.1.log
+# Thu, 06 Dec 2018 21:31:27
+# Richard Chung 1.3.2 IPythong Log
+# Thu, 06 Dec 2018 21:32:42
+#The code opens an image in the 1.3.2 file and when you click on the png you can see an histogram.
+# Thu, 06 Dec 2018 21:33:14
+5+3
+#[Out]# 8
+# Thu, 06 Dec 2018 21:34:10
+5+3.
+#[Out]# 8.0
+# Thu, 06 Dec 2018 21:35:10
+%logstop

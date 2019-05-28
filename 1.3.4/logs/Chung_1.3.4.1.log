@@ -1,0 +1,8 @@
+# IPython log file
+
+cd 1.3.4
+# Thu, 13 Dec 2018 20:57:13
+%run Chung_1.3.4.py
+# Thu, 13 Dec 2018 20:57:29
+food_id('apple')
+#[Out]# 'NOT Citrus, Fruit'
